@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    //Ativate
+    $("#mycarousel").carousel();
+    $("item0").click(function(){
+        $("#mycarousel").carousel(0);
+    });
+    $("item1").click(function(){
+        $("#mycarousel").carousel(1);
+    });
+    $("item2").click(function(){
+        $("#mycarousel").carousel(2);
+    });
+    $("item3").click(function(){
+        $("#mycarousel").carousel(3);
+    });
+    //control
+    $(".carousel-control-prev").click(function(){
+        $("#mycarousel").carousel("prev");
+    });
+    $(".carousel-control-next").click(function(){
+        $("#mycarousel").carousel("next");
+    });
+});

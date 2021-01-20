@@ -1,41 +1,44 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <a class="navbar-brand" href="#" style="font-weight:bold;">Chloé</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+<header class="header1">
+  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Chloé</a>
+    <input class="form-control form-control-dark col-md-4 col-lg-6 mr-auto" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav my-auto px-2 list-group-horizontal text-center col-md-5 col-lg-4 ">
+      <li class="nav-item mr-auto ml-auto" >
+        <a class="nav-link" href="#" id="shopping_cart_icon">
+          <span data-feather="shopping-cart" ></span>
+        </a>
+      </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#" id="navitem">Home</a>
+        <img src="/web_thuongmai/assets/shared/img/avatar_icon.png" class="img-fluid" style=" border-radius: 50%; width:42px;height:100%; background-color:white;" id="avatar">
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="navitem">News</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="navitem">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="navitem">About</a>
+      <li class="nav-item text-nowrap my-auto" style=" margin-left: 5px;" id="btnLogin">
+        <a class="nav-link btn btn-sm btn-outline-secondary px-3 " href="#">Sign in</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-md-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  </nav>
 
-<style>
-#navitem{
-  font-size: large;
-  color:black;
-}
-li {
-  margin: 0 10px;
-  border-radius:10px;
-}
-li:hover{
-  background-color:grey;
-}
-</style>
+  <nav class="navbar navbar-expand-md bg-light navbar-light p-0">
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse pl-2" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item" id="nav_item">
+          <a class="nav-link" href="#">Text here</a>
+        </li>
+        <li class="nav-item" id="nav_item">
+          <a class="nav-link" href="#">Text here</a>
+        </li>
+        <li class="nav-item" id="nav_item">
+          <a class="nav-link" href="#">Text here</a>
+        </li>
+        <li class="nav-item" id="nav_item">
+          <a class="nav-link" href="#">Text here</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
